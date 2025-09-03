@@ -18,44 +18,43 @@
     <div class="container">
       <h1>Gestor de libros</h1>
       <div class="form-container">
-      <form action="" id="book-form">
-        <input type="hidden" id="book-id" />
-        <div class="form-grid">
-         
-          <input
-            type="text"
-            id="code"
-            placeholder="codigo Isbn(ISBN-123)"
-            required
-          />
-          <input
-            type="text"
-            id="title"
-            placeholder="titulo del libro"
-            required
-          />
-          <input type="text" id="Autor" placeholder="Autor" required />
-          <input type="text" id="price" placeholder="precio" required />
-          <select name="format" id="format">
-            <option value="" disabled selected>Formato...</option>
-            <option value="e-book">ebook</option>
-            <option value="hardcover">pasta dura</option>
-            <option value="e-pub">e-pub</option>
-          </select>
-          <input type="number" id="rating" placeholder="Calificación (0-5)" />
-        </div>
-        <textarea
-          name=""
-          id="description"
-          placeholder="Descripción del libro.."
-        ></textarea>
-        <div class="form-buttons">
-          <button type="submit" id="submit-button">Agregar libro</button>
-          <button type="button" id="cancel-button" class="cancel-btn">
-            cancelar ediccíon
-          </button>
-        </div>
-      </form>
+        <form action="" id="book-form">
+          <input type="hidden" id="book-id" />
+          <div class="form-grid">
+            <input
+              type="text"
+              id="code"
+              placeholder="codigo Isbn(ISBN-123)"
+              required
+            />
+            <input
+              type="text"
+              id="title"
+              placeholder="titulo del libro"
+              required
+            />
+            <input type="text" id="author" placeholder="Autor" required />
+            <input type="text" id="price" placeholder="precio" required />
+            <select name="format" id="format">
+              <option value="" disabled selected>Formato...</option>
+              <option value="e-book">ebook</option>
+              <option value="hardcover">pasta dura</option>
+              <option value="e-pub">e-pub</option>
+            </select>
+            <input type="number" id="rating" placeholder="Calificación (0-5)" />
+          </div>
+          <textarea
+            name=""
+            id="description"
+            placeholder="Descripción del libro.."
+          ></textarea>
+          <div class="form-buttons">
+            <button type="submit" id="submit-button">Agregar libro</button>
+            <button type="button" id="cancel-button" class="cancel-btn">
+              cancelar ediccíon
+            </button>
+          </div>
+        </form>
       </div>
     </div>
     <h2>Catalogo de Libros</h2>
