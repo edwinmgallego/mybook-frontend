@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 tableBody.insertAdjacentHTML("beforeend", row);
             });
         } catch (error) {
-            console.error("Error al obtener los libros:", error);
+            //console.error("Error al obtener los libros:", error);
             tableBody.innerHTML = `<tr><td colspan="7" style="text-align:center;">Error al cargar los datos</td></tr>`;
         }
     };
